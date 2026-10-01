@@ -1,0 +1,5 @@
+# Geometry worker
+services/geometry-worker/.venv/
+services/geometry-worker/__pycache__/
+services/geometry-worker/**/__pycache__/
+*.pyc
