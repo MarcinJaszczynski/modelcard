@@ -1,0 +1,17 @@
+{
+  "template": "czolg",
+  "scale": 30,
+  "nazwa": "T-34-85",
+  "wariant": "„Rudy” 102 — Czterej pancerni i pies",
+  "dlugosc_kadluba": 6.10,
+  "szerokosc": 3.00,
+  "wysokosc_kadluba": 1.55,
+  "przeswit": 0.40,
+  "szerokosc_gasienicy": 0.50,
+  "wieza": {"x": 2.75, "dlugosc": 2.30, "szerokosc": 1.75, "wysokosc": 0.75},
+  "lufa": {"dlugosc": 3.60, "kaliber": 0.085},
+  "kola": {"liczba": 5, "promien": 0.415},
+  "kolor": "#4b5a3a",
+  "napisy": [{"tekst": "102", "miejsce": "wieza", "wysokosc": 0.34, "kolor": "#f4f4f0", "dx": 0.35},
+             {"tekst": "RUDY", "miejsce": "wieza", "wysokosc": 0.20, "kolor": "#f4f4f0", "dx": -0.55}]
+}

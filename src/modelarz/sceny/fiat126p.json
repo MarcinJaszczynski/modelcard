@@ -1,0 +1,15 @@
+{
+  "template": "samochod",
+  "scale": 24,
+  "nazwa": "Polski Fiat 126p",
+  "wariant": "„Maluch”",
+  "nadwozie": "fastback",
+  "dlugosc": 3.05,
+  "szerokosc": 1.38,
+  "wysokosc": 1.30,
+  "rozstaw_osi": 1.84,
+  "promien_kola": 0.26,
+  "przeswit": 0.14,
+  "linia_okien": 0.80,
+  "kolor": "#d9a521"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Messerschmitt Bf 109 E-4",
+  "variant": "Adolf Galland, JG 26, 1940",
+  "colors": {
+    "base": "#a9c3cf",
+    "spinner": "#3f4a3c"
+  },
+  "spinner": [
+    [0.0, 0.0],
+    [0.25, 0.21],
+    [0.6, 0.33]
+  ],
+  "fuselage": {
+    "_opis": "x, połowa szerokości, góra, dół, wysokość największej szerokości, wykładnik góry, wykładnik dołu, od poziomu trudności",
+    "stations": [
+      [0.6, 0.33, 0.33, -0.33, 0.0, 2, 2, 1],
+      [0.78, 0.37, 0.38, -0.5, -0.05, 2.6, 2.4, 2],
+      [1.4, 0.4, 0.44, -0.58, -0.05, 2.8, 2.8, 1],
+      [2.05, 0.41, 0.47, -0.6, -0.05, 2.8, 3.0, 1],
+      [2.5, 0.41, 0.5, -0.6, -0.03, 2.6, 3.0, 2],
+      [3.1, 0.4, 0.5, -0.58, 0.0, 2.5, 3.0, 1],
+      [3.75, 0.38, 0.5, -0.52, 0.02, 2.3, 2.8, 1],
+      [4.6, 0.33, 0.46, -0.38, 0.04, 2.2, 2.3, 2],
+      [5.6, 0.26, 0.41, -0.24, 0.07, 2.1, 2.1, 1],
+      [6.7, 0.18, 0.36, -0.1, 0.1, 2, 2, 1],
+      [7.6, 0.11, 0.32, 0.02, 0.14, 2, 2, 2],
+      [8.3, 0.05, 0.28, 0.1, 0.18, 2, 2, 1]
+    ]
+  },
+  "canopy": {
+    "z0": 0.36,
+    "hw": 0.29,
+    "h": 0.5,
+    "profile": "box",
+    "top": 0.7,
+    "color": "#a9cfe8",
+    "sections": [
+      [2.42, 0.85, 0.2],
+      [2.78, 1, 1],
+      [3.45, 1, 1],
+      [3.8, 0.8, 0.3]
+    ]
+  },
+  "wing": {
+    "sections": [
+      [1.85, 0.02, -0.34, 2.25, 0.15],
+      [2.42, 4.75, -0.34, 1.12, 0.11],
+      [2.52, 4.93, -0.34, 0.92, 0.1]
+    ],
+    "dihedral": 6.5,
+    "camber": 0.02,
+    "spar_x": 2.6
+  },
+  "stab": {
+    "on_fin": true,
+    "sections": [
+      [7.55, 0.01, 0.62, 0.85, 0.09],
+      [7.75, 1.4, 0.62, 0.58, 0.08],
+      [7.85, 1.52, 0.62, 0.4, 0.07]
+    ]
+  },
+  "fin": {
+    "sections": [
+      [7.4, 0.15, 0.0, 1.1, 0.09],
+      [7.72, 1.0, 0.0, 0.85, 0.085],
+      [7.98, 1.3, 0.0, 0.5, 0.07]
+    ]
+  },
+  "prop": {
+    "blades": 3,
+    "radius": 1.5,
+    "chord": 0.24,
+    "hub": 0.2,
+    "x": 0.36,
+    "color": "#2f352d",
+    "tip_color": "#2f352d"
+  },
+  "gear": {
+    "x": 2.35,
+    "y": 1.0,
+    "z_top": -0.4,
+    "leg": 0.95,
+    "wheel_r": 0.33
+  },
+  "paint": [
+    {"view": "top", "polygon": "all", "color": "#7d8471", "groups": ["fuselage", "wing", "stab"], "min_dot": 0.45},
+    {"view": "top", "polygon": "all", "color": "#7d8471", "groups": ["wing", "stab"], "min_dot": 0.05},
+    {"view": "top", "polygon": [ [1.9, -5.0], [3.1, -5.0], [3.6, -2.6], [2.6, -2.2] ], "color": "#4d5a44", "groups": ["wing"], "min_dot": 0.05},
+    {"view": "top", "polygon": [ [3.0, -2.4], [4.2, -2.9], [4.2, -0.3], [3.2, -0.3] ], "color": "#4d5a44", "groups": ["wing"], "min_dot": 0.05},
+    {"view": "top", "polygon": [ [1.9, 0.3], [2.9, 0.3], [3.3, 2.6], [1.9, 2.2] ], "color": "#4d5a44", "groups": ["wing"], "min_dot": 0.05},
+    {"view": "top", "polygon": [ [2.9, 3.0], [4.0, 2.4], [3.8, 5.0], [2.7, 5.0] ], "color": "#4d5a44", "groups": ["wing"], "min_dot": 0.05},
+    {"view": "top", "polygon": [ [4.3, -0.5], [6.0, -0.5], [5.4, 0.5], [3.9, 0.5] ], "color": "#4d5a44", "groups": ["fuselage"], "min_dot": 0.45},
+    {"view": "top", "polygon": [ [6.9, -0.5], [8.4, -0.5], [8.4, 0.5], [7.4, 0.5] ], "color": "#4d5a44", "groups": ["fuselage"], "min_dot": 0.45},
+    {"view": "top", "polygon": [ [7.3, 0.1], [7.9, 0.1], [8.1, 1.6], [7.6, 1.6] ], "color": "#4d5a44", "groups": ["stab"], "min_dot": 0.05},
+    {"view": "top", "polygon": [ [7.8, -0.1], [8.4, -0.1], [8.3, -1.6], [8.0, -1.6] ], "color": "#4d5a44", "groups": ["stab"], "min_dot": 0.05},
+    {"view": "x", "range": [0.6, 1.85], "color": "#e0b422", "groups": ["fuselage"]},
+    {"view": "side", "polygon": [ [8.0, 0.34], [8.6, 0.34], [8.6, 1.4], [8.22, 1.4] ], "color": "#e0b422", "groups": ["fin"]},
+    {"view": "side", "rect": [1.15, -0.3, 1.8, -0.2], "color": "#2b2b2b", "groups": ["fuselage"]},
+    {"view": "side", "polygon": [ [4.45, -0.1], [4.75, 0.04], [4.45, 0.18], [4.52, 0.04] ], "color": "#141414", "groups": ["fuselage"]},
+    {"view": "side", "rect": [4.8, 0.0, 5.05, 0.08], "color": "#141414", "groups": ["fuselage"]},
+    {"view": "x", "at": 2.8, "groups": ["canopy"], "color": "#4d5a44", "width": 0.9},
+    {"view": "x", "at": 3.12, "groups": ["canopy"], "color": "#4d5a44", "width": 0.9},
+    {"view": "x", "at": 3.45, "groups": ["canopy"], "color": "#4d5a44", "width": 0.9},
+    {"view": "side", "line": [ [2.52, 0.6], [3.7, 0.6] ], "groups": ["canopy"], "color": "#4d5a44", "width": 0.9},
+    {"view": "side", "insignia": "balkenkreuz", "at": [5.45, 0.06], "size": 0.62, "groups": ["fuselage"]},
+    {"view": "top", "insignia": "balkenkreuz", "at": [3.05, 3.45], "size": 0.85, "mirror": true, "groups": ["wing"], "min_dot": 0.05},
+    {"view": "bottom", "insignia": "balkenkreuz", "at": [3.05, 3.45], "size": 0.85, "mirror": true, "groups": ["wing"], "min_dot": 0.05}
+  ],
+  "exhaust": [1.15, -0.25, 1.8]
+}

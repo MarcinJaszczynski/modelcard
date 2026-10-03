@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "modelarz",
-      "runtimeExecutable": "uv",
-      "runtimeArgs": ["run", "--project", "modelarz", "modelarz", "serve", "--port", "8791"],
+      "runtimeExecutable": ".venv/bin/modelarz",
+      "runtimeArgs": ["serve", "--port", "8791"],
       "port": 8791
     }
   ]
